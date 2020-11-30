@@ -19,6 +19,6 @@ public class Controller {
     @GetMapping("/department")
     public String department()
     {
-        return "department";
+        return "Department";
     }
 }
