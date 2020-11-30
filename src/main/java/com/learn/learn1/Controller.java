@@ -16,4 +16,9 @@ public class Controller {
     {
         return "Test";
     }
+    @GetMapping("/department")
+    public String department()
+    {
+        return "Department";
+    }
 }
