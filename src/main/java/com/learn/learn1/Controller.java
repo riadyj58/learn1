@@ -19,8 +19,8 @@ public class Controller {
     @GetMapping("/person")
     public String person()
     {
-        return "Person";}
-        
+        return "Person";
+    }
     @GetMapping("/department")
     public String department()
     {
