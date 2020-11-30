@@ -16,9 +16,9 @@ public class Controller {
     {
         return "Test";
     }
-    @GetMapping("/person")
-    public String person()
+    @GetMapping("/department")
+    public String department()
     {
-        return "Person";
+        return "department";
     }
 }
